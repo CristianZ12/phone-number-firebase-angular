@@ -1,0 +1,40 @@
+.nav1{
+    background-color: rgb(71, 78, 237);
+}
+
+.divC{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listC{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.listCN{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.fa-clipboard{
+    color: white;
+}
+
+.enlacesLi{
+    text-decoration: none;
+    color: white;
+}
+
+.listUL{
+    margin-left: 20px;
+}
+
+.fa-plus{
+    color: white;
+}

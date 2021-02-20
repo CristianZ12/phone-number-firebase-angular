@@ -1,0 +1,86 @@
+.gridHome{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    grid-template-areas: 
+    'leftGrid centerGrid rightGrid';
+}
+
+.gridLeft{
+    grid-area: 'leftGrid';
+}
+
+.gridCenter{
+    grid-area: 'centerGrid';
+}
+
+.gridRight{
+    grid-area: 'rightGrid';
+}
+
+.cardTitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cardActionH{
+    margin-top: 80px;
+    background-color: #D90C09;
+}
+
+.textHomeC{
+    font-size: 18px;
+    text-align: justify;
+    color: white;
+}
+
+.btnHomeS{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnH{
+    text-decoration: none;
+    display: block;
+    padding: 10px 16px;
+    color: white;
+    border: none;
+    background-color: #3902F0;
+}
+
+.btnH:hover{
+    background-color: white;
+    color: black;
+}
+
+.cardContentH{
+    background-color:  #F0A602;
+}
+
+@media screen and (max-width: 1200px){
+    .gridHome{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 2fr 8fr 2fr;
+        grid-template-areas: 
+        'leftGrid centerGrid rightGrid';
+    }
+}
+
+@media screen and (max-width: 900px){
+    .gridHome{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 10fr 1fr;
+        grid-template-areas: 
+        'leftGrid centerGrid rightGrid';
+    }
+}
